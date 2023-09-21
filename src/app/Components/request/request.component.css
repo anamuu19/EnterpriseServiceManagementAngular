@@ -1,0 +1,163 @@
+/* body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+} */
+
+/* form.example input[type=text] {
+  padding: 10px;
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 17px;
+
+  width: 80%;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+
+} */
+/* form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+} */
+/*
+form.example button:hover {
+  background: #0b7dda;
+} */
+
+/* form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+form.example {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: left; */
+
+}
+
+form.example .search-container {
+  display: flex;
+  margin-top: 80px;
+  padding: 4px;
+  width: 70%;
+  /* align-items: left; */
+  background-color: white;
+
+  /* border-radius: 50px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+form.example .search-icon {
+  margin: 0 10px;
+  color: #333030;
+
+}
+
+form.example input[type="text"] {
+  /* flex: 0; */
+  padding: 5px;
+  font-size: 13px;
+  /* margin-left: 50px; */
+  border: none;
+  /* border-radius: 0px; */
+  background-color: white;
+  outline: none;
+}
+
+form.example input[type="text"]::placeholder {
+  color: #ccc;
+}
+.example{
+/* text-align: end; */
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+/* .row {
+  margin: 0 -5px;
+  width: 1300px;
+  margin-left: 200px;
+  margin-right: 1200px;
+  position: fixed;
+
+
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */ */
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+/* .card {
+  margin-top: 50px;
+  padding-left: 1000px;
+  padding-right: 1000px;
+  margin-left: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(221, 74, 74);
+} */
+/* p{
+  margin-left: 100px;
+} */
+
+
+/* .icon {
+  font-size: 60px;
+  height: 60px;
+  width: 60px;
+
+} */
+.red{
+  color: rgb(221, 104, 104);
+}
+/* mat-toolbar{
+  margin-top: 300px;
+} */
+
